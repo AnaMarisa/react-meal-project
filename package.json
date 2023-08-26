@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "homepage": "https://AnaMarisa.github.io/reactmeal-project",
+=======
+  "homepage": "https://AnaMarisa.github.io/react-meal-project",
+>>>>>>> 5435f10726c98d1576befa024c8960a47d50ba0e
   "name": "react-complete-guide",
   "version": "0.1.0",
   "private": true,
