@@ -4,7 +4,7 @@
   border: none;
   background-color: #4d1601;
   color: white;
-  padding: 0.75rem 3rem;
+  padding: 0.75rem 2rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -55,5 +55,44 @@
   }
   100% {
     transform: scale(1);
+  }
+}
+
+/* Tablet and larger screens */
+@media (min-width: 768px) {
+  .button {
+    padding: 0.75rem 3rem;
+  }
+}
+
+/* Larger laptops and desktops */
+@media (min-width: 1024px) {
+  .button {
+    padding: 0.75rem 4rem; /* Adjust padding for larger devices */
+  }
+}
+
+.icon {
+  width: 1.5rem; /* Adjust icon size for smaller devices */
+  height: 1.5rem; /* Adjust icon size for smaller devices */
+  margin-right: 0.5rem;
+}
+
+.badge {
+  padding: 0.25rem 1rem;
+  font-weight: bold;
+}
+
+/* Tablet and larger screens */
+@media (min-width: 768px) {
+  .badge {
+    margin-left: 1.5rem; /* Adjust margin for larger devices */
+  }
+}
+
+/* Handphone */
+@media (max-width: 767px) {
+  .badge {
+    margin-left: 0.5rem; /* Adjust margin for smaller devices */
   }
 }
